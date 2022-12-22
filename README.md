@@ -18,7 +18,7 @@ that support Python using this program.
 * In one computer click on server then connect and make any wanted port
 * In the other computer click on client then connect type in the port then the ip adress of the computer that is the server
 * Have fun chating!!
-Benefits/extras:
+### Benefits/extras:
 * Hide option for the password bar
 * Also an option to change password after forgetting
 * Change your username by clicking on username option then change username
