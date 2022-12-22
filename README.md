@@ -8,97 +8,44 @@ that support Python using this program.
 
 * Nothing much!
 * Add Python to Environment Path when installing
-*Add Tkinter Library as well as math, socket, threading ans sys.
-*Now easily run the program
+* Add Tkinter Library as well as math, socket, threading ans sys.
+* Now easily run the program
 
 ### Run the program
-* Run as usual python program `python main.py`
+* Run as usual python program `python mycode.py`
+* Login to the server page with your email and password 
+* If you are a new user you can create new account
 * In one computer click on server then connect and make any wanted port
 * In the other computer click on client then connect type in the port then the ip adress of the computer that is the server
 * Have fun chating!!
-extras:
-* Change your username by clicking on file then change username
+Benefits/extras:
+* Hide option for the password bar
+* Also an option to change password after forgetting
+* Change your username by clicking on username option then change username
+* Added an option to save your chat history with the connected user
+* Added an option to share computer files with the user
+* Added contact option with auto saving of connected user I/P and port
+* Also added a button for knowing system is connected or disconnected
 
 #### Tested OS
-* Tested on Windows 8, Windows 8.1, Windows 10
+* Tested on Windows 9, Windows 10, Windows 11
 
-#### Screenshot of various installation
-
-* See attached `screenshot` folder in this repository.
-
-
-<b> Screenshot of two users chatting using Pychat:</b> 
-
-Server user (Alice)<br>
-
-![alt Pychat demo](https://raw.githubusercontent.com/arsho/pychat/master/screenshot/server.png)
-
-Client user (Bob)<br>
-
-![alt Pychat demo](https://raw.githubusercontent.com/arsho/pychat/master/screenshot/client.png)
-
-### Command suggestion ###
-
-![alt Pychat demo](./screenshot/set_nickname.gif)
+#### For Screenshots of various installation please go through screenshot file
 
 ### Modification Needed ###
 
 * Font should be resized.
+* Database to store user id and password
 
 ### Future work  ###
 
 * Update GUI
 * Add effect
-* Show connected devices
+* Group chatting option
 
 ### Reference
 
 * [Socket Programming HOWTO](https://docs.python.org/3/howto/sockets.html)
 * [Graphical User Interfaces with Tk](https://docs.python.org/3/library/tk.html)
 
-### Development Status (Current)
 
-* Development Status :: 4 - Beta
-
-#### Development Status Phases (For understanding)
-* Development Status :: 1 - Planning
-* Development Status :: 2 - Pre-Alpha
-* Development Status :: 3 - Alpha
-* Development Status :: 4 - Beta
-* Development Status :: 5 - Production/Stable
-* Development Status :: 6 - Mature
-* Development Status :: 7 - Inactive
-
-### Contribution to Pychat (For developers only) ###
-
-#### Step 1: Installing Git Client
-
-The following steps can be done using Git Shell(Windows) or Ubuntu terminal. 
-
-* Install `Git` in Windows: Download and install `Github desktop`. URL:
- [https://desktop.github.com/](https://desktop.github.com/)
-* Install `Git` in Ubuntu: `sudo apt-get install git`
-
-#### Step 2: Clone this repo to your PC
-
-* Open git client (Git shell / terminal).
-* `git clone https://github.com/arsho/pychat.git`
-
-#### Step 3: Push modification to Github / Bitbucket from your PC?
-
-* Open git client (Git shell / terminal) and do the following steps.
-* `git pull --all`
-* `git add .`
-* `git commit -m "Commit message"`
-* `git push -u origin master`
-
-#### How this repository is created
-
-* Created a repository in Github.
-* CD to a directory in local PC.
-* Opened git client and did the following steps.
-* `git clone https://github.com/arsho/pychat.git`
-* `cd pychat`
-* `git add .`
-* `git commit -m "First commit"`
-* `git push -u origin master`
