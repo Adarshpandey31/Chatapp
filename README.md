@@ -1,7 +1,7 @@
 # Chatting application using LAN
 Python program to chat using LAN. 
 If you are in a Wifi network, you can chat with the connected devices
-that support Python using this program but first you have to login into your account
+that support Python using this program.
 
 
 ## How to get started?
